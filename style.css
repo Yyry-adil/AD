@@ -14,7 +14,35 @@ font-style: Regular;
 font-size: 16px;
 line-height: 100%;
 color: #FFFFFF;
+transition: 0,2s;
 }
+
+
+
+
+
+
+.header__ling:hover{
+    background-color: aquamarine;
+    color: rgb(255, 0, 76);
+}
+
+.header__ling:active{
+   background-color: rgb(49, 0, 128);
+   color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .header__logo{
     font-family: Inter;
 font-weight: 500;
@@ -67,8 +95,18 @@ line-height: 100%;
 padding:20px 60px ;
 background-color: #FFFFFF;
 color: black;
+transition: 0.2s;
 
 
+}
+
+.hero__btn:hover {
+    background-color: #1D1D1F; 
+    color: #FFFFFF ;
+}
+
+.hero__btn:active {
+    background-color: cadetblue;
 }
 
 
@@ -153,7 +191,18 @@ background-color: #FFFFFF;
 color: white;
 background-color: #1D1D1F;
 margin-top: 60px;
+transition: 0.7s;
+
 }
+.project__btn:hover{
+    background-color: rgb(183, 5, 233);
+    color: rgb(185, 17, 17);
+}
+
+.project__btn:active{
+    background-color: rgb(38, 0, 209);
+}
+
 .project__img{
  background: black;
 
